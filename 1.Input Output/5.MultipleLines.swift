@@ -9,5 +9,8 @@ print("I am a Programmer"); print("I love to play games"); print("I also like to
 
         but it is not recomended to put semicolon (;) after every statement
 
-        
+        but
+
+        when we write multiple statements in single line, then it become mandatory to put semicolon (;) between two statements to
+        separate them from each other
 */
