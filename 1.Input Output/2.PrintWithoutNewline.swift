@@ -16,6 +16,9 @@ print("I also like to make games.", terminator: " ")
 
         we can keep the terminator blank (terminator: "")
         
-        we can keep put dot(.) in the terminator (terminator: "")
+        we can keep put dot(.) in the terminator (terminator: ".")
 
+        we can keep put space(" ") in the terminator (terminator: " ")
+
+        actually any valid character you want
 */
