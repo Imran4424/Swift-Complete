@@ -7,7 +7,7 @@ var doubleVal = 3.1416
 
 print("value of doubleVal is", doubleVal)
 
-var charVal = 'X'
+var charVal = "X"
 
 print("value of charVal is", charVal)
 
