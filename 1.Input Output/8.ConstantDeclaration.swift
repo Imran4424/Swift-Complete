@@ -11,3 +11,12 @@ let gravity: Double = 9.8
 print(PI)
 print(gravity)
 
+// the following lines will
+
+// PI = 3.14
+// gravity = 9.98
+
+print(PI)
+print(gravity)
+
+
