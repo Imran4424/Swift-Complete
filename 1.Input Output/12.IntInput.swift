@@ -13,7 +13,7 @@ print("The entered value of the money is:", money!)
 
 // Third way
 
-var age: Int
+var age: Int?
 
 age = Int(readLine()!)
 
@@ -27,3 +27,14 @@ beans = (Int(readLine()!))!
 
 print("The entered value of the beans is:", beans)
 
+/*
+        In this code we will learn how to take input from console
+
+        readLine() - this function takes string as console input
+
+        But in this code we are taking integer as input
+
+        actually in real scenario we are taking string as console input then typecasting it to Int
+
+        Here we discussed four ways to that
+*/
