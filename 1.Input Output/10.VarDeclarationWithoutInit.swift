@@ -1,5 +1,5 @@
 
-var numberCount // this statement will generate error
+var numberCount: Int // this statement will generate error
 
 numberCount = 10
 
