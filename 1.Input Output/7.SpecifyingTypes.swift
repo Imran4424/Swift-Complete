@@ -22,4 +22,6 @@ print(stringVal)
         var is the basic keyword to declare variables in swift
 
         variable type will be automatically set upon the value we initialize
+
+        But we can specify the file type
 */
