@@ -29,5 +29,8 @@ print(stringVal)
 
         var countNumber: Int;
 
-        here, countNumber is a variable name and Int is the swift integer type
+        here, 
+        countNumber is a variable name 
+        and 
+        Int is the swift integer type
 */
