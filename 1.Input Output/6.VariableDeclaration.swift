@@ -15,6 +15,13 @@ var stringVal = "I am a Programmer" // here "I am a Programmer" is a literal
 
 print(stringVal)
 
+var isEmpty = true
+
+print("\nThe Box is empty.")
+print("This statement is:", isEmpty)
+
+
+
 /*  
         variable declaration in swift is really easy
 

@@ -15,6 +15,10 @@ var stringVal: String = "I am a Programmer" // here "I am a Programmer" is a lit
 
 print(stringVal)
 
+var isEmpty: Bool = true
+
+print("\nThe Box is empty.")
+print("This statement is:", isEmpty)
 
 /*  
         variable declaration in swift is really easy
