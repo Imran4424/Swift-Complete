@@ -3,7 +3,7 @@ var intVal: Int = 3 // here 3 is  a literal
 
 print("value of inVal is", intVal)
 
-var floatVal = 9.8 // here 3.1416 is a literal
+var floatVal: Float = 9.8 // here 3.1416 is a literal
 
 print("value of floatVal is", floatVal)
 
