@@ -23,5 +23,11 @@ print(stringVal)
 
         variable type will be automatically set upon the value we initialize
 
-        But we can specify the file type
+        But we can specify the file type using colon (:) after the variable name
+
+        example: 
+
+        var countNumber: Int;
+
+        here, countNumber is a variable name and Int is the swift integer type
 */
