@@ -41,4 +41,8 @@ print("The entered value of the beans is:", beans)
         In first three ways, 
 
         we take input in a string optional then convert it to a Int optional and assign it to a Int optional variable
+
+        But in fourth way,
+
+        we take input in a string optional then convert it to a Int optional and
 */
