@@ -37,4 +37,8 @@ print("The entered value of the beans is:", beans)
         actually in real scenario we are taking string as console input then typecasting it to Int
 
         Here we discussed four ways to that
+
+        In first three ways, 
+
+        we take input in a string optional then convert it to a Int optional and assign it to a Int optional variable
 */
