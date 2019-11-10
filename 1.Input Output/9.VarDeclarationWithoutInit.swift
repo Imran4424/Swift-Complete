@@ -13,4 +13,6 @@ print(numberCount)
         know what data type it would specify for the uninitialized declared variable
 
         so it generates an error
+
+        so on, every statement include that variable will also generate error
 */
