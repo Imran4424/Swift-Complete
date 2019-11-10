@@ -7,7 +7,7 @@ var doubleVal: Double = 3.1416 // here 3.1416 is a literal
 
 print("value of doubleVal is", doubleVal)
 
-var charVal: String = "X" // here "X" is a literal
+var charVal: Character = "X" // here "X" is a literal
 
 print("value of charVal is", charVal)
 

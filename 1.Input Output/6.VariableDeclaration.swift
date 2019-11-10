@@ -21,4 +21,12 @@ print(stringVal)
         var is the basic keyword to declare variables in swift
 
         variable type will be automatically set upon the value we initialize
+
+
+
+        Literal
+
+        Now, you may ask what is what the heck is a literal
+
+        literals are 
 */
