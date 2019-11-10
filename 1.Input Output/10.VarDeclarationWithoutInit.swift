@@ -1,7 +1,7 @@
 
 var numberCount: Int // now this is okay
 
-numberCount = 10
+numberCount = 10 // here ten is a literal
 
 print(numberCount)
 

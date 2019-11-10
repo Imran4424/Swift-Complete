@@ -1,17 +1,17 @@
 
-var intVal = 3
+var intVal = 3 // here 3 is  a literal
 
 print("value of inVal is", intVal)
 
-var doubleVal = 3.1416
+var doubleVal = 3.1416 // here 3.1416 is a literal
 
 print("value of doubleVal is", doubleVal)
 
-var charVal = "X"
+var charVal = "X" // here "X" is a literal
 
 print("value of charVal is", charVal)
 
-var stringVal = "I am a Programmer"
+var stringVal = "I am a Programmer" // here "I am a Programmer" is a literal
 
 print(stringVal)
 

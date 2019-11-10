@@ -1,7 +1,7 @@
 
 var numberCount // this statement will generate error
 
-numberCount = 10
+numberCount = 10 // here ten is a literal
 
 print(numberCount)
 

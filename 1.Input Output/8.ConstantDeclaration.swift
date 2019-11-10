@@ -1,12 +1,12 @@
 /*
         declaring constants
 */
-let PI = 3.1416
+let PI = 3.1416 // here 3.1416 is a literal
 
 /*  
         declaring constants with type specified
 */
-let gravity: Double = 9.8
+let gravity: Double = 9.8 // here 9.8 is a literal
 
 print(PI)
 print(gravity)
