@@ -3,9 +3,9 @@ var numOne = (Int(readLine()!))!
 var numTwo = (Int(readLine()!))!
 var numThree = (Int(readLine()!))!
 
-if (numOne < numTwo)
+if (numOne > numTwo)
 {
-        if (numOne < numThree)
+        if (numOne > numThree)
         {
                 print("Min:", numOne)
         }
@@ -16,7 +16,7 @@ if (numOne < numTwo)
 }
 else
 {
-        if(numTwo < numThree)
+        if(numTwo > numThree)
         {
                 print("Min:", numTwo)
         }
