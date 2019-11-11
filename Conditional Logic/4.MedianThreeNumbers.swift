@@ -5,23 +5,31 @@ var numThree = (Int(readLine()!))!
 
 if (numOne > numTwo)
 {
-        if (numOne > numThree)
+        if (numTwo > numThree)
         {
-                print("Min:", numOne)
+                print("Median:", numTwo)
         }
-        else
+        else if(numOne > numThree)
         {
-                print("Min:", numThree)
+                print("Median:", numThree)
+        }
+        else 
+        {
+                print("Median:", numOne)        
         }
 }
 else
 {
-        if(numTwo > numThree)
+        if(numOne > numThree)
         {
-                print("Min:", numTwo)
+                print("Median:", numOne)
+        }
+        else if(numTwo > numThree)
+        {
+                print("Median:", numThree)        
         }
         else 
         {
-                print("Min:", numThree)        
+                print("Median:", numTwo)        
         }
 }
