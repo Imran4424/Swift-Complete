@@ -1,4 +1,6 @@
 
+// 1 + 3 + 5 + 7 + ... + n
+
 var num = (Int(readLine()!))!
 
 var sum = 0
