@@ -1,5 +1,6 @@
 
 // 1 + 2 + 3 + 4 + ... + n
+// same problem different style implementation
 
 var num = (Int(readLine()!))!
 
