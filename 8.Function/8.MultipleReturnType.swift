@@ -42,5 +42,8 @@ print("Total marks:", compoundVariable.total)
 print("Average marks:", compoundVariable.average)
 
 /*  
-	In the previous code, we learn how 
+	In the previous code, we learn how to return multiple values from a funtion
+
+	but, in the previous code,
+	return types were unlabeled, you we had to access the return values using index
 */
