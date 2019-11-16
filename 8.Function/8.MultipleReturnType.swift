@@ -41,3 +41,6 @@ print("Total marks:", compoundVariable.total)
 
 print("Average marks:", compoundVariable.average)
 
+/*  
+	
+*/
