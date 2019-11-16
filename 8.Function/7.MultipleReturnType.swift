@@ -69,4 +69,23 @@ print("Average marks:", compoundVariable.3)
     since, they are unlabeled,
     first return type will be accessible at 0 index
     second return type will be accessible at 1 index
+    and 
+    the whole compound variable will be accesible at 2 index
+
+    now, if we want to return four return type
+
+    func AnalyzingArray(marks : [Int]) -> (Int, Int, Int, Double)
+    {
+
+    }
+
+    here, we can see, we are allowed to have different types of multiple return type
+
+    since, they are unlabeled,
+    first return type will be accessible at 0 index
+    second return type will be accessible at 1 index
+    third return type will be accessible at 2 index
+    fourth return type will be accessible at 3 index
+    and 
+    the whole compound variable will be accesible at 4 index
 */
