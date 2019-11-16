@@ -62,5 +62,11 @@ print("Average marks:", compoundVariable.3)
 
     }
 
-    see, we are just joining two return types in a single unit as 
+    see, we are just joining two return types in a single unit using first bracket
+
+    here two return types will come as a package of two return types
+
+    since, they are unlabeled,
+    first return type will be accessible at 0 index
+    second return type will be accessible at 1 index
 */
