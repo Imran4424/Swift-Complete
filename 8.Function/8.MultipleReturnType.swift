@@ -46,4 +46,30 @@ print("Average marks:", compoundVariable.average)
 
 	but, in the previous code,
 	return types were unlabeled, you we had to access the return values using index
+
+	for more flexibity and more code more readablility, swift offers multiple return with labels feature
+
+	example:
+
+	func AnalyzingArray(marks : [Int]) -> (max: Int, min: Int, total: Int, average: Double)
+	{
+
+	}
+
+	here, this function returning four values of different types
+
+	first return type labeled as max
+	second return type labeled as min
+	third return type labeled as total
+	fourth return type labeled as average
+
+	var compoundVariable = AnalyzingArray(marks: marks)
+
+	so then
+
+	first return type will be accessible at compoundVariable.max
+	second return type will be accessible at compoundVariable.min
+	third return type will be accessible at compoundVariable.total
+	fourth return type will be accessible at compoundVariable.average
+
 */
