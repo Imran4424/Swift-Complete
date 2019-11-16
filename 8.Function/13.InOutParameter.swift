@@ -11,7 +11,7 @@ func Display(numAr: Array <Int>)
     print()
 }
 
-func BubbleSort(numAr: Array <Int>) -> Array <Int>
+func BubbleSort(numAr:inout Array <Int>) -> Array <Int>
 {
     for i in 0..<numAr.count - 1
     {
@@ -20,8 +20,7 @@ func BubbleSort(numAr: Array <Int>) -> Array <Int>
             if(numAr[j] > numAr[j + 1])
             {
                 var temp = numAr[j]
-                // following two line will give compiler error
-                numAr[j] = numAr[j + 1] 
+                numAr[j] = numAr[j + 1]
                 numAr[j + 1] = temp
             }
         }
@@ -38,7 +37,7 @@ print("Before sorting")
 
 Display(numAr : numAr)
 
-numAr = BubbleSort(numAr: numAr)
+numAr = BubbleSort(numAr: &numAr)
 
 print("After sorting")
 
