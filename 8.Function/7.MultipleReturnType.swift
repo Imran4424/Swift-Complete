@@ -41,3 +41,26 @@ print("Total marks:", compoundVariable.2)
 
 print("Average marks:", compoundVariable.3)
 
+/* 
+    In this code we will learn how to return multiple values from a function
+
+    the trick is quite simple
+
+    let's consider a function
+
+    func AnalyzingArray(marks : [Int]) -> Int
+    {
+
+    }
+
+    this function has only one return type
+
+    if we want to have two return type then that will be
+
+    func AnalyzingArray(marks : [Int]) -> (Int, Int)
+    {
+
+    }
+
+    see, we are just joining two return types in a single unit as 
+*/
