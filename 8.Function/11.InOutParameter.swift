@@ -48,6 +48,12 @@ Display(numAr: numAr)
 /* 
     In the previous code we saw that function paremeters in swift pass as constant by default 
 
-    that's why we can't 
+    that's why we can't change the values of parameters inside the function
 
+    to solve this swift has inout parameters
+
+
+    you just need to put "inout" keyword before the parameter type to convert it from constant to variable(that means editable
+    inside the function parameter)
+    
 */
