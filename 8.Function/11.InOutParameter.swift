@@ -55,5 +55,13 @@ Display(numAr: numAr)
 
     you just need to put "inout" keyword before the parameter type to convert it from constant to variable(that means editable
     inside the function parameter)
-    
+
+    example:
+
+    func BubbleSort(numAr:inout Array <Int>) -> Array <Int>
+    {
+
+    }
+
+    now, this parameter array values will be editable 
 */
