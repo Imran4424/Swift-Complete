@@ -23,4 +23,9 @@ Add(a: 7.2, b: 4.5)
         parameter number.
 
         so, overloading depends on two things
+
+        1. Parameter type
+        2. Parameter number
+
+        here we are using parameter type for function overloading
 */
