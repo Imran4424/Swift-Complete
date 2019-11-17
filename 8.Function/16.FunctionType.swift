@@ -5,7 +5,7 @@ func AddTwo ( _ a: Int, _ b: Int) -> Int
         return a + b;
 }
 
-func MultiplyThree(_ a: Int, _ b: Int) -> Int
+func MultiplyTwo(_ a: Int, _ b: Int) -> Int
 {
         return a * b
 }
@@ -16,6 +16,6 @@ mathFunction = AddTwo
 
 print("This is addition using func Types:", mathFunction(5, 5))
 
-mathFunction = MultiplyThree
+mathFunction = MultiplyTwo
 
 print("This is multipication using func Types:", mathFunction(5, 5))
