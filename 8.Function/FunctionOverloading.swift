@@ -11,4 +11,5 @@ func Add(a: Double, b: Double) -> Double
 }
 
 Add(a: 7, b: 4)
+
 Add(a: 7.2, b: 4.5)
