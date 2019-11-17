@@ -1,5 +1,5 @@
 
-func Operation(a: Int, int b : Int) -> Int
+func Operation(a: Int, b : Int) -> Int
 {
         func Options()
         {
@@ -20,10 +20,8 @@ func Operation(a: Int, int b : Int) -> Int
         {
                 return a - b
         }
-        else if(3 == command)
-        {
-                return a * b
-        }
+        
+        return a * b
 }
 
 var numOne = (Int(readLine()!))!
