@@ -29,7 +29,7 @@ func Operation(a: Int, int b : Int) -> Int
 var numOne = (Int(readLine()!))!
 var numTwo = (Int(readLine()!))!
 
-print("The result is:", Operation(a: x, b: y))
+print("The result is:", Operation(a: numOne, b: numTwo))
 
 
 /* 
