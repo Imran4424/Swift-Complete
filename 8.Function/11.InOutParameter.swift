@@ -37,8 +37,17 @@ print("Before sorting")
 
 Display(numAr : numAr)
 
+// inout parameter need to be passed as references
 numAr = BubbleSort(numAr: &numAr)
 
 print("After sorting")
 
 Display(numAr: numAr)
+
+
+/* 
+    In the previous code we saw that function paremeters in swift pass as constant by default 
+
+    that's why we can't 
+
+*/

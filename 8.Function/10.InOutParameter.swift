@@ -43,3 +43,18 @@ numAr = BubbleSort(numAr: numAr)
 print("After sorting")
 
 Display(numAr: numAr)
+
+/* 
+    In swift, by default, function parameters are passed as constant
+
+    so if you try to change a parameter value inside the function
+
+    this will give you error
+
+    in this code,
+    look at the line 24, 25
+
+    in that code block we are changing values of function parameters by swapping, 
+
+    but this is giving error because function parameters are by default constant
+*/
