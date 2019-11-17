@@ -20,5 +20,7 @@ print("This is addition using func Types:", DisplayResult(MultiplyTwo, 5, 5))
 
 
 /* 
+        In this code, we are learning to use function type as parameter type
+
         Function types can also be used as return type
 */
