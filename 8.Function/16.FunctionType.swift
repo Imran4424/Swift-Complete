@@ -1,11 +1,11 @@
 
 
-func AddTwo ( _ a: Int, _ b: Int)
+func AddTwo ( _ a: Int, _ b: Int) -> Int
 {
         return a + b;
 }
 
-func MultiplyThree(_ a: Int, _ b: Int)
+func MultiplyThree(_ a: Int, _ b: Int) -> Int
 {
         return a * b
 }
