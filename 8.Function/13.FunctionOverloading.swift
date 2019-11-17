@@ -26,5 +26,5 @@ Add(a: 3, b: 4, c: 7)
         1. Parameter type
         2. Parameter number
 
-        here we are using parameter type for function overloading
+        here we are using parameter number for function overloading
 */
