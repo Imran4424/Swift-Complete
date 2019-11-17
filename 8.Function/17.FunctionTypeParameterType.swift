@@ -17,3 +17,8 @@ func DisplayResult(_ mathFunction: (Int, Int) -> Int, _ a: Int, _ b: Int) -> Int
 print("This is addition using func Types:", DisplayResult(AddTwo, 5, 5))
 
 print("This is addition using func Types:", DisplayResult(MultiplyTwo, 5, 5))
+
+
+/* 
+        Function types can also be used as return type
+*/
