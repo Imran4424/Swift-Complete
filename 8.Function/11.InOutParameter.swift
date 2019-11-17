@@ -63,5 +63,16 @@ Display(numAr: numAr)
 
     }
 
-    now, this parameter array values will be editable 
+    now, this array parameter values will be editable inside the function
+
+    we also consider that,
+    when we calling this function we need a '&' operator before the parameter we passed, this is called reference
+
+    example:
+
+    numAr = BubbleSort(numAr: &numAr)
+
+    here, we put a '&' operator before the  parameter "numAr"
+
+    otherwise we will have error
 */
