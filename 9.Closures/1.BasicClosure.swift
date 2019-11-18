@@ -14,7 +14,10 @@ let closureTwo =
         
 }
 
-let closureThree
+let closureThree: () -> () =
+{
+        print("Closure with no parameters and no return type")
+}
 
 closureOne()
 closureTwo()
