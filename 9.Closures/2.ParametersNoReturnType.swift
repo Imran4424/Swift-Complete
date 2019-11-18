@@ -1,6 +1,7 @@
 
 let add:(a, b) -> () =
 {
-        print("Addition is:", add(7, 3))
-        
+        print("Addition is:", a + b)
 }
+
+add(7, 5)
