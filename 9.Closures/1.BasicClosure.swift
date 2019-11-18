@@ -14,5 +14,7 @@ let closureTwo =
         
 }
 
+let closureThree
+
 closureOne()
 closureTwo()
