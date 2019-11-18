@@ -1,6 +1,8 @@
 
-let add:(a, b) -> () =
+let add:(Int, Int) -> () =
 {
+        a, b in
+        
         print("Addition is:", a + b)
 }
 
