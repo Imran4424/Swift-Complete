@@ -1,10 +1,22 @@
 
+// parameters no return type
+
 let add:(Int, Int) -> () =
 {
-        // naming the parameters
-        (a, b) in
-
-        print("Addition is:", a + b)
+    // naming the parameters
+    (x, y) in
+    
+    print("Additon is:", x + y)
 }
 
-add(7, 5)
+let message:(String) -> () =
+{
+    // naming the parameters
+    text in
+    
+    print(text)
+}
+
+add(7, 12)
+
+message("I am a Programmer")
