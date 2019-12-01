@@ -7,6 +7,7 @@ let price = Double()
 
 print(price)
 
-let someChar = Character()
+// the following lines will give you error cause Character constant has no default value
 
-print(someChar)
+// let someChar = Character()
+// print(someChar)
