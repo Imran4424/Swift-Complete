@@ -1,0 +1,3 @@
+/*  
+        optionals is a special type of varibale which might or might not have a value
+*/
