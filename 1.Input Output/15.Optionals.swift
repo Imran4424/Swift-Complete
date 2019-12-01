@@ -26,6 +26,8 @@ print("This optionals value is:", points)
 
 var price: Int? = 50
 
+// this is a explicitly unwrapped optional, we can't use it like a variable
+
 print("This optionals value is:", price)
 
 print("This optionals value is:", price!)
