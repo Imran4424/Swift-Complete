@@ -5,7 +5,7 @@ print("Default value of Int constant:", num)
 
 let piece = Float()
 
-print("Default value of Double constant", piece)
+print("Default value of Float constant", piece)
 
 
 let price = Double()
