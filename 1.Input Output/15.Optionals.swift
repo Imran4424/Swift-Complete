@@ -4,4 +4,9 @@
         just think optionals as a glass which might have water or might not have water(empty glass)
 */
 
-// there are two ways we can declare a optional variables
+/*  
+        there are two ways we can declare a optional variables
+
+        In this code we will explore one of the ways
+*/
+
