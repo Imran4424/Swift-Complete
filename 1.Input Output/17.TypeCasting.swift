@@ -1,7 +1,11 @@
 
 var numberString : String = "1234"
 
-print("The string value is:", numberString)
+print("The String value is:", numberString)
+
+// when we typesting String to Interger, compiler typecast as Interger optional
+// cause
+// String to Int typecasting can failed in nil value
 
 var numberInt : Int = (Int(numberString))!
 
