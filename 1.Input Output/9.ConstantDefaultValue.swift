@@ -3,6 +3,11 @@ let num = Int()
 
 print("Default value of Int constant:", num)
 
+let piece = Float()
+
+print("Default value of Double constant", piece)
+
+
 let price = Double()
 
 print("Default value of Double constant:", price)
