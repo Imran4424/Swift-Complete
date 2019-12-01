@@ -26,13 +26,21 @@ print("This optionals value is:", points)
 
 var price: Int? = 50
 
-// this is a explicitly unwrapped optional, we can't use it like a variable
+// we can't use it like a variable
 
-print("This optionals value is:", price)
+print("This optionals value is: \(price)")
 
 // to use it like a variable we need to unwrapped it using the exclamation mark(!) 
 
-print("This optionals value is:", price!)
+print("This optionals value is: \(price!)")
+
+
+let possibleString: String? = "An optional string."
+
+// without the exclamation mark we will get error for assigning cause this is a explicitly unwrapped optionals
+
+let forcedString: String = possibleString! // requires an exclamation mark
+
 
 /*  
         optionals may or may not contain any value

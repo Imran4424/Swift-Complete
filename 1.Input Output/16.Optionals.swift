@@ -12,23 +12,23 @@
 
 // this is a Int type optional
 
-var number: Int? = nil
+var number: Int! = nil
 
 print("This optionals value is:", number)
 
 // this is a Double type optional
 
-var points : Double?
+var points : Double!
 
 print("This optionals value is:", points)
 
 // this is a int type optional which has a value
 
-var price: Int? = 50
+var price: Int! = 50
 
 // this is a explicitly unwrapped optional, we can't use it like a variable
 
-print("This optionals value is:", price)
+print("This optionals value is: \(price)")
 
 // to use it like a variable we need to unwrapped it using the exclamation mark(!) 
 
