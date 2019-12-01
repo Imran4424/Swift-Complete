@@ -5,19 +5,28 @@
 */
 
 /*  
-        there are two ways we can declare a optional variables
+        there are two types optional variables
 
-        In this code we will explore one of the ways
+        In this code we will only explore explicitly unwrapped optionals
 */
 
 // this is a Int type optional
 
 var number: Int? = nil
 
-print(number)
+print("This optionals value is:", number)
 
 // this is a Double type optional
 
 var points : Double?
 
+print("This optionals value is:", points)
+
+// this is a int type optional which has a value
+
+var price: Int? = 50
+
+print("This optionals value is:", price)
+
+print("This optionals value is:", price!)
 
