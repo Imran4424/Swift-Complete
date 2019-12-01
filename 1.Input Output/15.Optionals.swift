@@ -30,5 +30,17 @@ var price: Int? = 50
 
 print("This optionals value is:", price)
 
+// to use it like a variable we need to unwrapped it using the exclamation mark(!) 
+
 print("This optionals value is:", price!)
 
+/*  
+        optionals may or may not contain any value
+
+        but explicitly unwrapped optionals can have no value in their life time
+
+        example,
+                var points : Double?
+
+        this points variable can have nil value in his life without having any problem
+*/
