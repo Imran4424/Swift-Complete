@@ -1,13 +1,17 @@
 
 let num = Int()
 
-print(num)
+print("Default value of Int constant", num)
 
 let price = Double()
 
-print(price)
+print("Default value of Double constant", price)
 
 // the following lines will give you error cause Character constant has no default value
 
 // let someChar = Character()
 // print(someChar)
+
+let someLine = String()
+
+print(someLine)
