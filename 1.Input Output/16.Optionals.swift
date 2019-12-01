@@ -7,24 +7,24 @@
 /*  
         there are two types optional variables
 
-        In this code we will only explore explicitly unwrapped optionals
+        In this code we will only explore implicitly unwrapped optionals
 */
 
 // this is a Int type optional
 
-var number: Int? = nil
+var number: Int! = nil
 
 print("This optionals value is:", number)
 
 // this is a Double type optional
 
-var points : Double?
+var points : Double!
 
 print("This optionals value is:", points)
 
 // this is a int type optional which has a value
 
-var price: Int? = 50
+var price: Int! = 50
 
 // we can't use it like a variable
 
@@ -35,20 +35,20 @@ print("This optionals value is: \(price)")
 print("This optionals value is: \(price!)")
 
 
-let possibleString: String? = "An optional string."
+let assumedString: String! = "An implicitly unwrapped optional string."
 
-// without the exclamation mark we will get error for assigning cause this is a explicitly unwrapped optionals
+// this is implicitly unwrapped optional
+// that's why we can use it to assigning just like variables without unwrapping
 
-let forcedString: String = possibleString! // requires an exclamation mark
-
+let implicitString: String = assumedString // no need for an exclamation mark
 
 /*  
         optionals may or may not contain any value
 
-        but explicitly unwrapped optionals can have no value in their life time
+        but implicitly unwrapped optionals will have values at some point in their life time
 
         example,
-                var points : Double?
+                var points : Double!
 
-        this points variable can have nil value in his life without having any problem
+        this points variable will have value at some point in it's life time
 */
