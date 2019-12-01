@@ -10,4 +10,14 @@
         In this code we will explore one of the ways
 */
 
-var 
+// this is a Int type optional
+
+var number: Int? = nil
+
+print(number)
+
+// this is a Double type optional
+
+var points : Double?
+
+
