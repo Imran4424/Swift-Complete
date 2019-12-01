@@ -3,7 +3,7 @@ var numberString : String = "1234"
 
 print("The string value is:", numberString)
 
-var numberInt : Int = Int(numberString)
+var numberInt : Int = (Int(numberString))!
 
 print("The Interger value is:", numberInt)
 
