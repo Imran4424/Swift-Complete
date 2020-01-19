@@ -15,6 +15,7 @@ class DataImporter {
 
 class DataManager {
         lazy var importer = DataImporter()
+        // declaring importer as lazy property
         var data = [String]()
         // the DataManager class would provide data management functionality here
 }
