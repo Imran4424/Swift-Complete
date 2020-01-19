@@ -19,7 +19,8 @@ struct Rect {
                 // when getter have single statement
                 // we can ommit the return statement
                 get {
-                        Point(x: origin.x + (size.width / 2), y: origin.y + (size.height / 2))
+                        Point(x: origin.x + (size.width / 2), 
+                              y: origin.y + (size.height / 2))
                 }
 
                 set(newCenter) {
