@@ -12,7 +12,7 @@ class Box {
                 return length * width
         }
 
-        var Volume: Double {
+        var volume: Double {
                 return length * width * height
         }
 
@@ -30,3 +30,8 @@ class Box {
 }
 
 Box red = Box()
+
+print("Red Box's area is: \(red.area)")
+print("Red Box's volume is: \(red.volume)")
+
+Box green = Box(length: 12.0, width: 8, height: 4)
