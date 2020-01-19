@@ -22,10 +22,12 @@
 
 class StepCounter {
         var totalSteps: Int = 0 {
+                // default parameter name is newValue
                 willSet(newTotalSteps) {
                         print("About to set totalSteps to \(newTotalSteps)")
                 }
 
+                // default parameter name is oldValue
                 didSet {
                         if totalSteps > oldValue  {
                                 print("Added \(totalSteps - oldValue) steps")
