@@ -32,11 +32,14 @@ var square = Rect(origin: Point(x: 0.0, y: 0.0),
 // Getting stored property
 print("square.origin is now at (\(square.origin.x), \(square.origin.y))")
 // Getting computed property
+// this will call get block of computed property
 print("square.center is now at  (\(square.center.x), \(square.center.y))")
 let initialSquareCenter = square.center
 
 // Setting computed property
+// this will call the set block of computed property
 square.center = Point(x: 15.0, y: 15.0)
+
 // Prints "square.origin is now at (10.0, 10.0)"
 print("square.origin is now at (\(square.origin.x), \(square.origin.y))")
 // Getting computed property
