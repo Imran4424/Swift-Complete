@@ -29,6 +29,7 @@ class StepCounter {
                 }
 
                 // default parameter name is oldValue
+                // here no constant parameter name is given didSet, so, default will be used
                 didSet {
                         if totalSteps > oldValue  {
                                 print("Added \(totalSteps - oldValue) steps")
