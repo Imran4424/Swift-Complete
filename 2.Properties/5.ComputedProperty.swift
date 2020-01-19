@@ -31,7 +31,7 @@ var square = Rect(origin: Point(x: 0.0, y: 0.0),
 
 
 print("square.origin is now at (\(square.origin.x), \(square.origin.y))")
-// Ge
+// Getting computed property
 print("square.center is now at  (\(square.center.x), \(square.center.y))")
 let initialSquareCenter = square.center
 
