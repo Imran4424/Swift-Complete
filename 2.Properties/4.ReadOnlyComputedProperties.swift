@@ -1,6 +1,8 @@
 
 /** 
         Computed Properties
+
+        Read Only computed property
 */
 
 class Box {
