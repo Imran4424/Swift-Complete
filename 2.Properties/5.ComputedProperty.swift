@@ -43,6 +43,7 @@ square.center = Point(x: 15.0, y: 15.0)
 // Prints "square.origin is now at (10.0, 10.0)"
 print("square.origin is now at (\(square.origin.x), \(square.origin.y))")
 // Getting computed property
+// this will call get block of computed property
 print("square.center is now at  (\(square.center.x), \(square.center.y))")
 
 
