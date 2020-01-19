@@ -5,5 +5,6 @@
 */
 
 /**  
-
+        A lazy stored property is a property whose initial value is not calculated until the first time 
+        it is used.
 */
