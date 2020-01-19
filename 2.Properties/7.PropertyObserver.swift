@@ -33,6 +33,7 @@
                 }
         }
     }
+    
     let stepCounter = StepCounter()
     stepCounter.totalSteps = 200
     // About to set totalSteps to 200
