@@ -16,4 +16,6 @@
 
         willSet is called just before the value is stored.
         didSet is called immediately after the new value is stored.
+
+        code example: https://docs.swift.org/swift-book/LanguageGuide/Properties.html
 */
