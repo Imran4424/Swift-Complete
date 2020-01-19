@@ -24,6 +24,9 @@ manager.data.append("Some data")
 manager.data.append("Some more data")
 // the DataImporter instance for the importer property has not yet been created
 
+print(manager.importer.filename)
+// the DataImporter instance for the importer property has now been created
+// Prints "data.txt"
 
 /**  
         A lazy stored property is a property whose initial value is not calculated until the first time 
