@@ -17,9 +17,7 @@ struct Rect {
         var size = Size()
         var center: Point {
                 get {
-                        let centerX = origin.x + (size.width / 2)
-                        let centerY = origin.y + (size.height / 2)
-                        return Point(x: centerX, y: centerY)
+                        Point(x: origin.x + (size.width / 2), y: origin.y + (size.height / 2))
                 }
 
                 set(newCenter) {
