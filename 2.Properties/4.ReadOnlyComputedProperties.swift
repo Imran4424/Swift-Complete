@@ -35,3 +35,6 @@ print("Red Box's area is: \(red.area)")
 print("Red Box's volume is: \(red.volume)")
 
 Box green = Box(length: 12.0, width: 8, height: 4)
+
+print("Green Box's area is: \(green.area)")
+print("Green Box's volume is: \(green.volume)")
