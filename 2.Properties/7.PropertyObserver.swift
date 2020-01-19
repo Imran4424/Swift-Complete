@@ -6,4 +6,6 @@
         is the same as the property’s current value.
 
         property observer can be applied to, stored properties (exception lazy stored property)
+
+        property observers can also be applied to any inherited property (both stored or computed)
 */
