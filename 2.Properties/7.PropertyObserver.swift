@@ -20,7 +20,7 @@
         code example: https://docs.swift.org/swift-book/LanguageGuide/Properties.html
 */
 
-    class StepCounter {
+class StepCounter {
         var totalSteps: Int = 0 {
                 willSet(newTotalSteps) {
                         print("About to set totalSteps to \(newTotalSteps)")
@@ -32,7 +32,7 @@
                         }
                 }
         }
-    }
+}
     
 let stepCounter = StepCounter()
 stepCounter.totalSteps = 200
