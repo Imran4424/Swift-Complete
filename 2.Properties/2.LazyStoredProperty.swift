@@ -1,3 +1,3 @@
 /** 
- * 
+ * Lazy stored property 
 */ 
