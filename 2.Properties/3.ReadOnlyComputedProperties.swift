@@ -1,6 +1,8 @@
 /** 
         Computed Properties
 
+        Read only computed Property
+
         code example: https://docs.swift.org/swift-book/LanguageGuide/Properties.html
 */
 
