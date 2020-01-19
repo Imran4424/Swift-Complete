@@ -23,6 +23,7 @@
 class StepCounter {
         var totalSteps: Int = 0 {
                 // default parameter name is newValue
+                // here "newTotalSteps" is the constant parameter name given by willSet
                 willSet(newTotalSteps) {
                         print("About to set totalSteps to \(newTotalSteps)")
                 }
