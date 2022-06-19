@@ -55,7 +55,15 @@ print("Average marks:", average)
 
     basic syntax:
     
-    var Array_name: Array_Type = Array()
+    var Array_name: Array<Array_Type> = Array()
+
+    or
+
+    var Array_name = Array<Array_Type>()
+
+    or 
+    
+    var Array_name = [Array_Type]()
     
     example:
     
