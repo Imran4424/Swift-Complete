@@ -4,6 +4,12 @@ var arSize: Int = (Int(readLine()!))!
 // creating an empty array
 var marks: Array <Int> = Array()
 
+//  or creating an empty array like this
+// var marks = Array <Int>()
+
+//  or creating an empty array like this
+// var marks = [Int]()
+
 
 var minMark: Int = 0
 var maxMark: Int = 0
