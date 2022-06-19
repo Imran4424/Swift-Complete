@@ -1,6 +1,6 @@
 
 // sets are designed to hold unique sets of values
-
+// sets are unordered in swift
 // create a set of integer type
 var studentID : Set = [112, 114, 116, 118, 115]
 
