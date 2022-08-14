@@ -1,7 +1,7 @@
 
 // this is the simple closure 
 // this closure has no statements 
-// so it do nothing
+// so it does nothing
 
 let closureOne = { }
 
